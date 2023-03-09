@@ -1,5 +1,6 @@
 package br.com.dio;
 
+import br.com.dio.model.Animal;
 import br.com.dio.model.Pessoa;
 
 public class PrimeiroPrograma {
@@ -9,6 +10,9 @@ public class PrimeiroPrograma {
 
         Livro livro = new Livro("O Espião", 350);
         System.out.println(livro);
+
+        Animal animal = new Animal("Gato", "Tônico");
+        System.out.println(animal);
     }
 }
 
